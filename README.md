@@ -1,4 +1,10 @@
 zsh-mkc
 =======
 
-zsh mkdir &amp;&amp; cd
+zsh `mkdir && cd`
+
+## Usage with antigen:
+
+```sh
+antigen bundle caarlos0/zsh-mkc
+```
