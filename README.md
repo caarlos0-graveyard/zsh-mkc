@@ -1,10 +1,16 @@
-zsh-mkc
+zsh-mkc [![Build Status](https://travis-ci.org/caarlos0/zsh-mkc.svg?branch=master)](https://travis-ci.org/caarlos0/zsh-mkc)
 =======
 
-zsh `mkdir && cd`
+zsh `mkdir && cd` plugin.
 
-## Usage with antigen:
+## Install with antigen:
 
 ```sh
 antigen bundle caarlos0/zsh-mkc
+```
+
+## Usage
+
+```sh
+mkc a/b/c/d/e/f/g
 ```
