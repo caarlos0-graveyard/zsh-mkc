@@ -5,7 +5,6 @@ mkc() {
 }
 
 _mkc() {
+  #compdef mkc
   _files -W "$1" -/
 }
-
-compdef _mkc mkc
