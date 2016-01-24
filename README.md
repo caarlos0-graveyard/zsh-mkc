@@ -3,14 +3,22 @@ zsh-mkc [![Build Status](https://travis-ci.org/caarlos0/zsh-mkc.svg?branch=maste
 
 zsh `mkdir && cd` plugin.
 
-## Install with antigen:
+## Install
+
+### Antibody
 
 ```sh
-antigen bundle caarlos0/zsh-mkc
+$ antibody bundle caarlos0/zsh-mkc
+```
+
+### Antigen
+
+```sh
+$ antigen bundle caarlos0/zsh-mkc
 ```
 
 ## Usage
 
 ```sh
-mkc a/b/c/d/e/f/g
+$ mkc a/b/c/d/e/f/g
 ```
